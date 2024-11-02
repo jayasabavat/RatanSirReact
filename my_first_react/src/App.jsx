@@ -15,6 +15,7 @@ const nonvegitems=list.map((item,id)=>(<li key={item.id}>{item.name}</li>))
 
   return(
     <>
+    <h1>This is saturday class about modification</h1>
     <h1 style={{color:'red'}}> veg items..</h1>
     <ul style={{color:'green'}}>{vegitems}</ul>
 
